@@ -5,6 +5,8 @@
  */
 package main;
 
+import Views.LogIn;
+
 /**
  *
  * @author ja-za
@@ -15,8 +17,7 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        System.out.println("Mod de la rama Pepe");
+        new LogIn().setVisible(true);
     }
     
 }
